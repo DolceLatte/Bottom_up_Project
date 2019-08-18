@@ -70,7 +70,7 @@ class Signup extends Component{
     <FormGroup controlId="number" bsSize="large">
       <label>Phone Number</label>
       <FormControl
-        type="number"
+        type="text"
         id="phone"
         
         pattern="(010)-\d{3,4}-\d{4}"

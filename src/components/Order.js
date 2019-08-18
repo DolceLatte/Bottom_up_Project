@@ -45,12 +45,12 @@ class Order extends Component{
                 }
             })
             console.log(orderList.orderMenu[0])
-            // axios.post('http://13.125.117.85:4000/order',{
-            //     order:orderList.orderMenu,
-            //     store:this.state.item.storename
-            // }).then(res=>{
-            //     console.log(res)
-            // })
+             axios.post('http://13.125.117.85:4000/order',{
+                 order:orderList.orderMenu,
+                 store:this.state.item.storename
+             }).then(res=>{
+                 console.log(res)
+             })
            
             const socket = io('http://13.125.117.85:4000/storemanage', {transports:['websocket']});
    
