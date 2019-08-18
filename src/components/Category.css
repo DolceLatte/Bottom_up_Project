@@ -1,0 +1,19 @@
+table,td{
+
+    text-align: -webkit-center;
+    border-collapse: collapse;
+}
+table{
+    width:500px;
+    height: 250px;
+}
+
+#list{
+    text-align: -webkit-center;
+    margin-top: 50px;
+    border-style: none;
+}
+
+* {
+    margin: auto;
+}
