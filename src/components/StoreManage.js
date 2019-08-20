@@ -309,6 +309,7 @@ class StoreManage extends Component{
                         <FormGroup>
                           ID :
                           <FormControl
+		    className="form_storemanage"
                           autoFocus
                           type="text"
                           name="userId"
@@ -319,6 +320,7 @@ class StoreManage extends Component{
                         <FormGroup>
                           가게이름 :
                           <FormControl
+		    className="form_storemanage"
                           autoFocus
                           type="text"
                           name="storename"
@@ -328,6 +330,7 @@ class StoreManage extends Component{
                         <FormGroup>
                           전화번호 :
                           <FormControl
+		    className="form_storemanage"
                           autoFocus
                           type="text"
                           name="storetel"
@@ -338,6 +341,7 @@ class StoreManage extends Component{
                         <FormGroup>
                           위치 :
                           <FormControl
+		    className="form_storemanage"
                           autoFocus
                           type="text"
                           name="address"
@@ -349,6 +353,7 @@ class StoreManage extends Component{
                         <FormGroup>
                           영업시간 :
                           <FormControl
+		    className="form_storemanage"
                           autoFocus
                           type="text"
                           name="storetime"
@@ -358,6 +363,7 @@ class StoreManage extends Component{
                         <FormGroup>
                           설명 :
                           <FormControl
+		    className="form_storemanage"
                           autoFocus
                           type="text"
                           name="storedesc"
